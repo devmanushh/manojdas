@@ -1,16 +1,20 @@
 import Image from "next/image";
+import LiteraryWorks from "@/components/literaryWorks";
+import PreLiteraryWorks from "@/components/preLiteraryWorks";
 
 export default function LiteraryWorksPage() {
   return (
-    <section className="intro-section">
+    <section>
+
+    <div className="intro-section">
       <div className="intro-content">
         <p className="intro-subheading">Literary Works</p>
 
-        <h1 className="intro-heading">Stories, Essays, and Imagination</h1>
+        <h1 className="intro-heading">The Journey of a Pen Across Two Languages</h1>
 
         <p className="intro-text">
-          Explore the books, stories, essays, and literary worlds that made
-          Manoj Das one of India&apos;s most beloved storytellers.
+          &ldquo;From the villages of Odisha to readers across continents, Manoj Das transformed memory into literature, 
+          folklore into philosophy, and stories into timeless reflections on life.&rdquo;
         </p>
       </div>
 
@@ -24,6 +28,9 @@ export default function LiteraryWorksPage() {
           priority
         />
       </div>
+      </div>
+    <PreLiteraryWorks/>
+    <LiteraryWorks/>
     </section>
   );
 }

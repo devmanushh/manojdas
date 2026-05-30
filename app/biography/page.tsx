@@ -14,8 +14,8 @@ export default function BiographyPage() {
         </h1>
 
         <p className="intro-text">
-          On a quiet February morning in 1934, in the coastal village of Sankhari in Odisha, 
-          a child opened his eyes to a world where the sea whispered ancient secrets and the winds carried forgotten tales.
+          "On a quiet February morning in 1934, in the coastal village of Sankhari in Odisha, 
+          a child opened his eyes to a world where the sea whispered ancient secrets and the winds carried forgotten tales."
         </p>
         <p className="intro-subheading">
             That child was Manoj Das.
